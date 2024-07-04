@@ -1,0 +1,6 @@
+nome = input('\nDigite seu nome: ')
+print('É um prazer te conhecer,\033[33m', nome + '\033[m!')
+print('É um prazer te conhecer, \033[33m{}\033[m!'.format(nome))
+idade = input('Qual a sua idade {}? '.format(nome))
+print('{} você tem \033[31m{} anos\033[m!'.format(nome,idade))
+input('\n\033[1:34mDigite "sair" para sair: \033[m')

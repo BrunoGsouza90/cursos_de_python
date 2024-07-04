@@ -1,0 +1,5 @@
+print('Olá, mundo!')
+help(print)
+print(input.__doc__)
+help(input)
+input('\n\033[1:34mDigite "sair" para sair: \033[m')

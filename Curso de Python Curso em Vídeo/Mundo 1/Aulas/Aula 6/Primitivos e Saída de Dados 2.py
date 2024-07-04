@@ -1,0 +1,8 @@
+n = input('\nDigite um valor: ')
+print('\033[31m',type(n),'\033[m')
+print('\033[31m',n,'\033[m')
+print('\033[31m',n.isnumeric(),'\033[m')
+print('\033[31m',n.isalpha(),'\033[m')
+print('\033[31m',n.isalnum(),'\033[m')
+print('\033[31m',n.isupper(),'\033[m')
+input('\n\033[34mDigite "sair" para sair: \033[m')

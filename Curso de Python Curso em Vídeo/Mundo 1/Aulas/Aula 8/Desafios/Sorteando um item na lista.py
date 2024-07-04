@@ -1,0 +1,26 @@
+import random
+aluno1=str(input('Digite o nome do primeiro aluno: '))
+print('Okay {} seu número é de sorte é o 1!'.format(aluno1))
+aluno2=str(input('Digite o nome do segundo aluno: '))
+print('Okay {} seu número é de sorte é o 2!'.format(aluno2))
+aluno3=str(input('Digite o nome do terceiro aluno: '))
+print('Okay {} seu número é de sorte é o 3!'.format(aluno3))
+aluno4=str(input('Digite o nome do quarto aluno: '))
+print('Okay {} seu número é de sorte é o 4!'.format(aluno4))
+sorteado = random.randint(1,4)
+print('O sorteado foi o {}. Vá apagar o quadro imediatamente!'.format(sorteado))
+input('Digite sair para sair: ')
+
+import random
+aluno1=str(input('Digite o nome do primeiro aluno: '))
+print('É um prazer {}!'.format(aluno1))
+aluno2=str(input('Digite o nome do segundo aluno: '))
+print('É um prazer {}!'.format(aluno2))
+aluno3=str(input('Digite o nome do terceiro aluno: '))
+print('É um prazer {}!'.format(aluno3))
+aluno4=str(input('Digite o nome do quarto aluno: '))
+print('É um prazer {}!'.format(aluno4))
+lista = [aluno1,aluno2,aluno3,aluno4]
+sorteado = random.choice(lista)
+print('O sorteado foi o {}. Vá apagar o quadro {} imediatamente!'.format(sorteado,sorteado))
+input('Digite sair para sair: ')

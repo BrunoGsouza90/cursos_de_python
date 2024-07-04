@@ -1,0 +1,15 @@
+Ana
+75.5
+s
+Pedro
+89
+s
+Joana
+89
+s
+Carolina
+55
+s
+Biana
+55
+n
