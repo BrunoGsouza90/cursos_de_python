@@ -31,7 +31,7 @@ def cadastrar_pessoas():
     
     dicionario = {'Nome': nome, 'Idade': idade}
     with open('cadastro.txt', 'a') as arquivo:
-        arquivo.write(json.dumps([dicionario]) + ',')
+        arquivo.write('\n' + json.dumps([dicionario]) + ',')
     print(f'Novo registro de {nome} adicionado.')
     print('-' * 50)
 
