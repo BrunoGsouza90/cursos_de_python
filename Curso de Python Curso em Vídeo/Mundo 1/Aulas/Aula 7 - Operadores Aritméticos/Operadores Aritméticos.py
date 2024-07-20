@@ -1,5 +1,5 @@
 nome = input ('\nQual é o seu nome? ')
-print('Prazer em te conhecer \033[1:31m{:=^20}\033[m!'.format(nome))
+print('Prazer em te conhecer \033[1:31m{:-^20}\033[m!'.format(nome))
 n1 = int(input('\nUm valor: '))
 n2 = int(input('Outro valor: '))
 s = n1 + n2
