@@ -1,6 +1,6 @@
 import ast
-
 from lib import interface
+
 def arquivoExiste(nome):
     try:
         a = open(nome, 'rt')
@@ -27,10 +27,10 @@ def lerArquivo(nome):
     else:
         interface.cabecalho('PESSOAS CADASTRADAS')
         linhas = a.readlines()
+        lista = list()
 
         for linha in linhas:
             dicionario = ast.literal_eval(linha.strip())
-            lista = list()
             lista.append(dicionario)
             for linhas in lista:
                 print(f'{linhas['Nome']:<30} {linhas['Idade']} anos')
