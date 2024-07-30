@@ -76,3 +76,18 @@ nome_do_usuaro_do_banco_de_dados
 senha_do_banco_de_dados
 nome_do_host
 ```
+
+No arquivo "env" também podemos importar variáveis dentro variáveis basta usarmos as seguintes configurações:
+
+```.env
+NOME = Bruno
+IDADE = 25
+NOME_IDADE = ${NAME} tem ${IDADE} anos.
+```
+O resultado será:
+```plaintext
+Bruno tem 25 anos.
+```
+
+**Aviso importante:**  
+O arquivo ".env" deve ser inclúido no arquivo ".gitignore", pois é neste que seus dados estaram visíveis.
