@@ -24,5 +24,6 @@ def consultarDados(conexao, sql):
     return resultado
 
 resultados = consultarDados(vcon, vsql)
+
 for resultado in resultados:
     print(resultado)
