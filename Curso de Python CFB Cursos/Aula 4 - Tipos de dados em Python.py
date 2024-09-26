@@ -9,7 +9,7 @@ x = 0
 y = type(x) #type
 print(type(y))
 
-n1 = 5;
+n1 = 5
 n2 = 2
 x = complex(n1, n2)  #complex
 print(x.real)
